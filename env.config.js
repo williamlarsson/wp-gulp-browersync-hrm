@@ -4,7 +4,7 @@ module.exports = {
   PRODUCTION: false,
   HOT: true,
   THEME_NAME: 'wp-gulp-browersync-hrm',
-  PROXY_TARGET: 'localhost/wp_starter/',
+  PROXY_TARGET: 'localhost/YOUR_PROJECT_FOLDER/',
   HOST: 'localhost',
   PORT: 3000,
   FILES: {
