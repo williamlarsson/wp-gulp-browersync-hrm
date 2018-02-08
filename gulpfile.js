@@ -1,6 +1,7 @@
 var gulp = require('gulp'),
     sass = require('gulp-sass'),
     notify = require('gulp-notify'),
+    filter = require('gulp-filter'),
     plumber = require('gulp-plumber'),
     clean = require('gulp-clean'),
     uglifycss = require('gulp-uglifycss'),
