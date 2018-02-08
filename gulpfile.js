@@ -24,6 +24,7 @@ gulp.task('default', function() {
 gulp.task('serve', function() {
     
     gulp.start('clean');
+    gulp.start('styles');
 
     browserSync.init(getBrowserSyncOptions(openWindow = true)); 
     
